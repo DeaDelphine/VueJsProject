@@ -1,13 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import Footer from './components/Footer.vue';
 import Main from './components/Main.vue';
 import NavBar from './components/NavBar.vue';
+import PostCard from './components/PostCard.vue';
 </script>
 
 <template>
   <NavBar></NavBar>
-  <HelloWorld msg="Hello Delphine, welcome to the new world ! ! " />    
+  <PostCard></PostCard>
   <Main></Main>
   <Footer></Footer>
 </template>
